@@ -1,6 +1,6 @@
 {
   "name": "neo4j_ogm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "",
   "main": "dist/libs/neo4jorm/index.js",
