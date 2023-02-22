@@ -5,7 +5,7 @@ import { neo4jOptions } from './interfaces/neo4jOptions';
 
 @Module({
   providers: [Neo4jogmService],
-  exports: [Neo4jogmService],
+  exports: [Neo4jogmService, Neo4jogmModule],
 })
 export class Neo4jogmModule {
   static forRoot({ uri, username, password }: neo4jOptions): DynamicModule {
