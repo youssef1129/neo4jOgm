@@ -4,8 +4,7 @@
   "description": "",
   "author": "",
   "main": "dist/libs/neo4jorm/index.js",
-  "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
